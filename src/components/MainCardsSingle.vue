@@ -5,7 +5,7 @@ const firstName = faker.name.firstName()
 const lastName = faker.name.lastName()
 const fullName = '${firstName} ${lastName}'
 
-const selectCard = () {
+const selectCard = () => {
     console.log('${fullName} selected')
 }
 </script>
