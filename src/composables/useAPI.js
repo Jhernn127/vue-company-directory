@@ -34,7 +34,7 @@ const getDepartment = async (departmentId) => {
     return data 
 }
 
-const useAPI = () = {
+const useAPI = () => {
     return {employees, pages, activePage, loading, pageSize, getEmployees, getDepartment }
 }
 
